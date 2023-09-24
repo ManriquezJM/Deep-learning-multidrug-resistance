@@ -5,7 +5,11 @@ MS data for the identification of multidrug resistance over Escherichia coli sam
 here we made available the scripts resulting from the work "Deep learning for the identification of multidrugresistance in MALDI-TOF MS samples of Escherichia coli".
 
 for more details about the model and the corresponding research see the conference at: (link to conference)
-
+## Requirements
+Installed Packages are listed in "requirements.txt". You can install relevant package by
+```python
+pip3 install -r requirements.txt
+```
 ## Data : (binning.py)
 For this work we have used data from <a href="https://doi.org/10.5061/dryad.bzkh1899q" rel="nofollow">DOI: 10.5061/dryad.bzkh1899q</a>, we created our own datasets following the author's recommendations regarding the size of the bins and how to handle samples with inconclusive resistance profiles. To create your own datasets, download the author's data and run binning.py. Set the following variables
 - ms_files_path: Path to mass spectra files.
